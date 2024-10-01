@@ -34,3 +34,6 @@ print('Java' in frase)
 print(frase.find('naju')) # me mostra a posição que a palavra 'naju' começa
 
 print(frase.split()) # fatia a frase
+
+print(frase.find('a')) # mostra a posição da primeira vez que uma letra foi encontrada
+print(frase.rfind('a')) # mostra a posição da última vez que uma letra foi encontrada
