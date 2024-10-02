@@ -1,8 +1,12 @@
 # programa para ler um número e mostrar cada uma das suas posições separadamente
 
-num = input('Digite um número entre 0 e 9999: ')
+num = int(input('Digite um número entre 0 e 9999: '))
+u = num // 1 % 10
+d = num // 10 % 10
+c = num // 100 % 10
+m = num // 1000
 
-print('unidade: {}'.format(num[3]))
-print('dezena: {}'.format(num[2]))
-print('centena: {}'.format(num[1]))
-print('milhar: {}'.format(num[0]))
+print('unidade: {}'.format(u))
+print('dezena: {}'.format(d))
+print('centena: {}'.format(c))
+print('milhar: {}'.format(m))
