@@ -1,4 +1,4 @@
-# gerenciador de pagamentos
+# gerenciador de pagamentos.
 
 precoNormal = float(input('Digite o preço normal do produto: '))
 print('''Formas de pagamento:
