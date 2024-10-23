@@ -43,7 +43,7 @@ elif computador == 3 and usuario == 'pedra':
     print('Resultado: COMPUTADOR GANHOU!')
 elif computador == 3 and usuario == 'papel':
     print('Minha jogada: TESOURA')
-    print('Sua jogada: PAPEL')
+    print('Sua jogada: PAPEL ')
     print('Resultado: VOCÊ GANHOU!')
 else:
     print('[ERRO] jogada inválida!')
