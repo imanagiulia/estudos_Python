@@ -16,5 +16,5 @@ else:
 
     if primo:
         print('É primo')
-    else:
+    else: 
         print('Não é primo  ')
