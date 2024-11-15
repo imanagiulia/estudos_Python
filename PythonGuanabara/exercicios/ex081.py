@@ -5,9 +5,9 @@ while(True):
     resp = input('Deseja continuar? [s/n] ').lower()
     if resp == 'n':
         break
-lista.sort()
+lista.sort(reverse=True)
 print(f'''Foram digitados {len(lista)} números
-A lista ordenada fica assim: {lista}''')
+A lista ordenada decrescente fica assim: {lista}''')
 if 5 in lista:
     print('O número 5 aparece na lista!')
 else:
