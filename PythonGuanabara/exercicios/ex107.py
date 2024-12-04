@@ -1,4 +1,4 @@
-from modulos import moedas
+from utilidadesCeV.modulos import moedas
 
 num = int(input('Digite um número: '))
 print(f'O dobro de R${num} é R${moedas.dobro(num)}')
