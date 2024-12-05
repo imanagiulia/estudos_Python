@@ -1,0 +1,6 @@
+ana; 18
+joão; 23
+mathues; 3
+keila; 56
+maria;33
+joana;15

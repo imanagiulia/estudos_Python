@@ -5,7 +5,7 @@ def leiaInt(msg):
             break
         else:
             print(f'\033[31m [ERRO] Digite um número inteiro válido.\033[0m')
-    return num
+    return int(num)
 
 
 #n = leiaInt('Digite um número: ')
