@@ -1,0 +1,36 @@
+criando o ambiente virtual venv
+python -m venv venv 
+OBS: tem que ser no cmd
+
+ativando o venv no windowns
+venv/Scripts/activate.bat
+
+desativando o venv
+deactivate
+
+pip install requests -> pacote para requisições http
+
+pip freeze -> lista tudo que temos no modulo, serve para conferir se um pacote foi realmente instalado
+
+cria um arquivo .txt listando tudo que foi instalado (é uma boa prática)
+pip freeze > requirements.txt 
+
+
+instalando a API FastAPI
+pip install fastapi
+pip install uvicorn
+(quando instalarmos novos pacotes é importe atualizar o freeze)
+pip freeze > requirements.txt
+
+
+rodar o servidor na máquina local
+uvicorn main:app --reload
+
+importante modificar o final do caminho do local:host para o definido no endpoint criada
+
+acessar todos os endpoints/documentação do servidor
+/docs
+
+parar o servidor
+ctrl + c
+
